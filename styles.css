@@ -1,8 +1,12 @@
 body {
+  height: 100vh;
+  padding: 20px;
+  font-size: 1.2em;
   background-image: url("./images/COFFEE.avif");
   background-size: cover;
-  font-family: sans-serif;
-  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 nav {
@@ -11,41 +15,44 @@ nav {
   margin-bottom: 15px;
 }
 
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-:last-child h2 {
-  font-size: 30px;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .established {
   font-style: italic;
 }
 
-h1,
-h2,
-p {
-  text-align: center;
+.section {
+  display: none;
 }
 
-#menu {
+#home {
+  display: block;
+}
+
+.homepage {
+  width: 100%;
+}
+
+#menu,
+#home,
+#about {
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 3em;
 }
 
 .icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
   height: auto;
   max-width: 25%;
@@ -62,15 +69,18 @@ hr {
 }
 
 h1,
-h2 {
-  font-family: Impact, serif;
+h2,
+h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .flavor,
@@ -85,26 +95,50 @@ h2 {
 }
 
 /* footer */
-footer {
-  font-size: 14px;
+#footer {
+  background-color: burlywood;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
 }
 
-.address {
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section h3 {
+  margin: 0 0 8px 0;
+}
+
+.footer-section ul li {
   margin-bottom: 5px;
 }
 
-a {
-  color: black;
+.footer-section a, nav a{
+ text-decoration: none;
+ color: brown;
 }
 
-a:hover {
-  color: brown;
+.footer-section a:hover, nav a:hover{
+  text-decoration: underline;
 }
 
-a:visited {
-  color: black;
-}
-
-a:active {
-  color: white;
+.address {
+  grid-column: 1/ -1;
+  text-align: center;
+  background-color: burlywood;
+  padding: 0;
+  margin: 0;
 }
