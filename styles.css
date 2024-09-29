@@ -1,17 +1,22 @@
 body {
-  background-image: url('./images/COFFEE.avif');
+  background-image: url("./images/COFFEE.avif");
   background-size: cover;
   font-family: sans-serif;
   padding: 20px;
+}
+
+nav {
+  background-color: burlywood;
+  padding: 20px;
+  margin-bottom: 15px;
 }
 
 h1 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
-}:last-child
-
-h2 {
+}
+:last-child h2 {
   font-size: 30px;
 }
 
@@ -25,7 +30,7 @@ p {
   text-align: center;
 }
 
-.menu {
+#menu {
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
@@ -40,7 +45,7 @@ img {
   margin-right: auto;
 }
 
-.icon{
+.icon {
   width: 25%;
   height: auto;
   max-width: 25%;
@@ -71,12 +76,12 @@ h2 {
 .flavor,
 .dessert {
   text-align: left;
-  width: 75%;
+  width: 49%;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: 49%;
 }
 
 /* footer */
@@ -92,14 +97,14 @@ a {
   color: black;
 }
 
-a:hover{
+a:hover {
   color: brown;
 }
 
-a:visited{
+a:visited {
   color: black;
 }
 
-a:active{
-  color:white;
+a:active {
+  color: white;
 }
