@@ -1,0 +1,78 @@
+{
+  "menu": {
+    "coffee": [
+      {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1489866492941-15d60bdaa7e0?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Espresso",
+        "description": "A strong and bold coffee shot, rich in flavor and aroma.",
+        "price": 2.5
+      },
+      {
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1559001724-fbad036dbc9e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhdHRlfGVufDB8fDB8fHww",
+        "name": "Latte",
+        "description": "A smooth and creamy blend of espresso with steamed milk.",
+        "price": 3.75
+      },
+      {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1708430651927-20e2e1f1e8f7?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Cappuccino",
+        "description": "A classic coffee made with equal parts espresso, steamed milk, and foam.",
+        "price": 3.5
+      },
+      {
+        "id": 4,
+        "img": "https://images.unsplash.com/photo-1681026859292-58c3b2041bfd?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Americano",
+        "description": "Espresso diluted with hot water for a longer, smoother coffee.",
+        "price": 2.75
+      },
+      {
+        "id": 5,
+        "img": "https://images.unsplash.com/photo-1618576230663-9714aecfb99a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Mocha",
+        "description": "A rich mix of espresso, chocolate, and steamed milk topped with whipped cream.",
+        "price": 4.25
+      }
+    ],
+    "desserts": [
+      {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Butter Croissant",
+        "description": "A flaky and buttery pastry, perfect with any coffee.",
+        "price": 2.0
+      },
+      {
+        "id": 2,
+        "img": "https://plus.unsplash.com/premium_photo-1683121869045-28a0e8de6a49?q=80&w=862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chocolate Cake",
+        "description": "Rich and decadent chocolate cake with a smooth frosting.",
+        "price": 4.5
+      },
+      {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1722251172860-39856cdd3bcd?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Blueberry Muffin",
+        "description": "A moist muffin filled with fresh blueberries.",
+        "price": 2.75
+      },
+      {
+        "id": 4,
+        "img": "https://plus.unsplash.com/premium_photo-1670895801135-858a7d167ea4?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Chocolate Chip Cookie",
+        "description": "Chewy and delicious, loaded with chocolate chips.",
+        "price": 1.5
+      },
+      {
+        "id": 5,
+        "img": "https://plus.unsplash.com/premium_photo-1694336203192-c9e7f2891b95?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Apple Pie",
+        "description": "A slice of traditional apple pie with a buttery crust.",
+        "price": 3.25
+      }
+    ]
+  }
+}
