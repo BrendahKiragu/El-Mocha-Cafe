@@ -3,18 +3,55 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Cafe Menu</title>
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#menu">Menu</a></li>
+      <ul>
+        <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#menu" class="nav-link" data-section="menu">Menu</a></li>
+        <li><a href="#footer" class="nav-link">Contact Us</a></li>
+      </ul>
     </nav>
-    <div id="menu">
+    <div id="home" class="section">
+      <h1>El Cafe Mocha</h1>
+      <p class="established">Welcome all</p>
+      <p class="established">Browse through our menu from the link above</p>
+      <article class="item">
+        <img
+          class="homepage"
+          src="./images/home page.avif"
+          alt="cafe reception"
+        />
+      </article>
+    </div>
+    <div id="about" class="section">
+      <h1>Welcome to El Café Mocha</h3>
+      <p>
+        Your neighborhood coffee haven!Whether you're craving a
+        bold espresso or a sweet pastry, our café is the perfect spot to relax,
+        connect, and enjoy.<br> Come in, unwind, and experience the warm, inviting
+        atmosphere that keeps our community coming back for more.
+      </p>
+<article>
+  <h1 class="established">Our Story</h1>
+  <p>
+    Welcome to <strong>El Café Mocha</strong>, where every cup tells a story. Founded in <strong>2024</strong>, our café was born from a passionate collaboration of coffee farmers nestled in the rich, fertile highlands of <strong>Mount Kenya</strong>. Our journey began with a shared dream: to bring the finest, sustainably grown coffee beans from our farms directly to your cup.
+  </p>
+  <p>
+    At <strong>El Café Mocha</strong>, we believe that great coffee isn’t just about the brew – it’s about the people, the culture, and the connection it fosters. With each sip, you're not just tasting coffee; you're savoring the rich heritage of our land and the hard work of dedicated farmers. Come, be a part of our story, and discover the magic of truly exceptional coffee.
+  </p>
+</article>
+
+    </div>
+    <div id="menu" class="section">
       <main>
         <h1>EL CAFE MOCHA</h1>
-        <p class="established">Est. 2024</p>
+        <h1 class="established">Welcome</h1>
+        <h5>Check out today's menu below</h5>
         <hr />
         <section>
           <h2>Coffee</h2>
@@ -62,12 +99,25 @@
         </section>
       </main>
       <hr class="bottom-line" />
-      <footer>
-        <p>
-          <a href="#" target="_blank">Visit our website</a>
-        </p>
-        <p class="address">@ el cafe mocha 2024</p>
-      </footer>
     </div>
+        <footer id="footer">
+          <div class="footer-section">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+              <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+              <li><a href="#menu" class="nav-link" data-section="menu">Menu</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+              <ul>
+                <li><a href="tel:+254708797000" target="_blank"><i class="fa fa-phone"></i> Call or Text</a></li>
+                <li><a href="https://wa.me/+254708797000" target="_blank"><i class="fa fa-whatsapp">Whatsapp</i></a></li>
+              </ul>
+          </div>
+          <p class="address">@ el cafe mocha 2024</p>
+      </footer>
   </body>
+  <script src="script.js"></script>
 </html>
