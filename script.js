@@ -1,12 +1,16 @@
-const menulink = document.getElementById("menu-link")
-const menuSection = document.getElementById("menu")
+const navLink = document.querySelectorAll(".nav-link");
+const sections = document.querySelectorAll(".section");
 
-menulink.addEventListener("click", function(e){
-  e.preventDefault();
+navLink.forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
 
-  if (menuSection.style.display === "none" || menuSection.style.display === ""){
-    menuSection.style.display = "block";
-  } else{
-    menuSection.style.display = "none"
-  }
-})
+    const targetSection = link.getAttribute("data-section");
+
+    sections.forEach((section) => {
+      section.style.display = "none";
+    });
+
+    document.getElementById(targetSection).style.display = "block";
+  });
+});
