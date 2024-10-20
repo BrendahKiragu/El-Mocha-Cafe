@@ -2,11 +2,11 @@ body {
   height: 100vh;
   padding: 20px;
   font-size: 1.2em;
-  background-image: url("./images/COFFEE.avif");
+  /* background-image: url("./images/COFFEE.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 nav {
@@ -112,12 +112,13 @@ h5 {
 #footer {
   background-color: burlywood;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   position: relative;
   font-size: 1.1em;
   padding: 0;
   margin: 0;
+  color: brown;
 }
 
 .footer-section {

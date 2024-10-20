@@ -34,7 +34,7 @@ function renderItem(coffee) {
 
 // fetch
 function fetchData() {
-  fetch("http://localhost:3000/menu")
+  fetch("http://localhost:4000/menu")
     .then((res) => res.json())
     .then((data) => {
       const coffeeHeader = document.createElement("h2");
